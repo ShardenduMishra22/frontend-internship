@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Set up a default axios instance with a base URL
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',  // Set your base URL here
+  baseURL: 'https://backend-internship-14wz.onrender.com/api',  // Set your base URL here
   headers: {
     'Content-Type': 'application/json',
   },

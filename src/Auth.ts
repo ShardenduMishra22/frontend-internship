@@ -7,7 +7,7 @@ export const isAuthenticated = async () => {
 
   try {
     const response = await axios.post(
-      'http://localhost:3000/api/valid',
+      'https://backend-internship-14wz.onrender.com/api/valid',
       {},
       {
         headers: {
