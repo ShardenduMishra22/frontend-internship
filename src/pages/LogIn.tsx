@@ -27,6 +27,7 @@ const Login: React.FC = () => {
         console.log(response.user);
         Cookies.set('jwt', response.token);
         alert('Login successful!');
+        navigate('/'); // Navigate to home page after successful login
       } else {
         alert(response?.message || 'Login failed');
       }

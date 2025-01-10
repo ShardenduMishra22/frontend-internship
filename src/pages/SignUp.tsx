@@ -23,6 +23,9 @@ const Signup: React.FC = () => {
       password,
       gender,
     });
+    if(response.status == 200){
+      navigate('/');
+    }
     alert(response?.message || 'Signup failed');
   };
 
